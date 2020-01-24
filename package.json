@@ -1,0 +1,29 @@
+{
+  "name": "fake-diff",
+  "version": "1.0.0",
+  "description": "Build git-like colorful, command line loggable line diffs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onurkerimov/fake-diff.git"
+  },
+  "keywords": [
+    "git",
+    "diff",
+    "linediff",
+    "color"
+  ],
+  "author": "Onur Kerimov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onurkerimov/fake-diff/issues"
+  },
+  "homepage": "https://github.com/onurkerimov/fake-diff#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "diff": "^4.0.2"
+  }
+}
